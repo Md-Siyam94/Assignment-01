@@ -304,3 +304,26 @@ color: rgb(13, 19, 33);
     display: flex;
    align-items: center;
 }
+
+footer{
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 16px;
+
+background: rgba(13, 19, 33, 0.03);
+}
+.text p{
+    margin-left: 160px;
+    font-size: 20px;
+    font-weight: 600;
+    color: rgb(13, 19, 33);
+}
+.png{
+    margin:0px 200px;
+
+}
+.png img{
+    margin: 7px;
+}
