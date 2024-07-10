@@ -39,7 +39,7 @@ nav button{
     align-items: center;
    
 }
-#sec-1 .container{
+#sec-1 .hero{
     
     width: 1220px;
     display: flex;
@@ -48,18 +48,18 @@ nav button{
     margin-top: 30px;
 
 }
-.container h1{
+.hero h1{
     font-size: 48px;
     font-weight: 800;
     text-align: center;
 }
-.container p{
+.hero p{
     font-size: 16px;
     font-weight: 400;
     opacity: 0.7;
     text-align: center;
 }
-.container button{
+.hero button{
     height: 66px;
     width: 208px;
     border-radius: 8px;
@@ -68,4 +68,68 @@ nav button{
     color: rgb(255, 255, 255);
     margin-top: 32px;
     background: rgb(13, 19, 33);
+}
+
+#sec-2{
+    width: 1140px;
+    height: 1395px;
+    
+    border-radius: 16px;
+    margin: 50px 160px;
+    background: rgba(13, 19, 33, 0.02);
+    /* margin: 80px 97px; */
+}
+#sec-2 .content{
+    height: 1235px;
+    width: 946px;   
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 80px 97px;
+    
+}
+.content h1{
+    font-size: 32px;
+    font-weight: 800;
+
+}
+.content .pera {
+    text-align: center;
+}
+ p{
+    font-size: 16px;
+    font-weight: 400;
+    opacity: 0.7;
+
+}
+
+.bio{
+    width: 946px;
+    height: 336px;
+    border-radius: 16px;
+    background: #ffffff;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    /* margin-top: 58px; */
+    margin: 32px;
+
+}
+.bio .info{
+    font-size: 24px;
+    font-weight: 700;
+    color: rgba(13, 19, 33, 0.7);
+    margin-left: 40px;
+    
+}
+.info .click{
+    width: 150px;
+    height: 48px;
+    margin-top: 32px;
+    font-size: 20px;
+    font-weight: 600;
+    opacity: 0.7;
+}
+.image-2{
+    margin-left: 96px;
 }
